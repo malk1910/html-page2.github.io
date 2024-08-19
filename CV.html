@@ -1,0 +1,114 @@
+<html>
+    <head>
+       <link rel="CVstyle" href="./CV.css">
+
+       <style>
+
+div {
+
+
+  width: 100px;
+  height: 100px;
+  border:tan;
+  position:relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-delay: 2s;
+}
+
+@keyframes example {
+  0%   {border:red; left:0px; top:0px;}
+  25%  {border:yellow; left:200px; top:0px;}
+  50%  {border:blue; left:200px; top:200px;}
+  75%  {border:green; left:0px; top:200px;}
+  100% {border:red; left:0px; top:0px;}
+}
+.button {
+  background-color:tan;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+.button {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
+h1 {
+          
+          
+          border: 4px solid tan;
+          border-style: outset;
+          border-radius: 10px;
+          
+        }       
+        p {
+          
+          text-align: center;
+          text-decoration-line: underline ;
+          text-decoration-color:tan;
+          font-size: larger;
+          
+        }
+        body{
+            text-align: center;         
+  
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color:beige;
+  }
+
+        }
+        textarea#test {
+   resize:none;
+   
+        }
+
+
+        </style>
+        
+    </head>
+</html>
+<body>
+
+        <div><h1>CV</h1></div>
+        
+
+        <p>Click on the picture to go to a new page  :</p>
+
+        <a href="./CV by coding.html">
+            <img src="./IMG_20210930_205600.jpg" alt="HTML tutorial" 
+            style="width:400px;height:400px;"></a>
+
+            
+        
+
+            <p>Click the button to go to the CV</p>
+            
+               
+                <button class="button" button onclick="document.location='CV - Ayman.Radwan senior civil engineer  updated 23-08-2020 Egypt.docx'">CV</button>
+                
+                <br>
+                
+                <textarea id="test">This CV is written by HTML and CSS languages(by coding)</textarea>
+                
+
+            
+        
+
+
+            
+        
+    
+</body>
